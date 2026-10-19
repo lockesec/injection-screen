@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "injection-screen"
+version = "0.1.0"
+description = "Provenance-aware first screen for prompt injection in content entering an AI agent's trusted context"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["prompt-injection", "llm-security", "ai-agents", "claude-code", "memory-poisoning"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+    "Intended Audience :: Developers",
+    "Environment :: Console",
+    "Operating System :: POSIX",
+    "Development Status :: 4 - Beta",
+]
+
+[project.urls]
+Homepage = "https://github.com/sethpsonnier/injection-screen"
+Documentation = "https://github.com/sethpsonnier/injection-screen/tree/main/docs"
+Issues = "https://github.com/sethpsonnier/injection-screen/issues"
+
+[project.scripts]
+injection-screen = "injection_screen.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
