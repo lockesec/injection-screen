@@ -15,7 +15,7 @@ Designed for:
 - **Claude Code, for the built-in parts.** The hook, the preset and `--memory` are for Claude Code.
   The command line works with any agent.
 
-By default it works offline, gives the same answer every time, and needs only Python 3.9+ and its
+By default it works offline, gives the same answer every time, and needs only Python 3.11+ and its
 standard library. With `--judge`, the text it screens goes to the model at `--judge-url` (this machine by
 default), and the model's answers can vary.
 
@@ -150,7 +150,7 @@ The email attacks were written to beat AI defences, and they beat this one. Read
    parser is timed in the tests over 200 adversarial shapes of about 1 MB, and every regex is
    timed on repetitions of its own words.
 7. **CI screens the project's own docs** under `repo-internal` with the committed ack file, and
-   runs the test suite on Python 3.9 to 3.14 on every push.
+   runs the test suite on Python 3.11 to 3.14 on every push.
 8. **No dependencies.** Regular expressions and small parsers on the standard library.
 
 ## Exit codes

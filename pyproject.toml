@@ -4,12 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "injection-screen"
-version = "0.1.0"
+version = "0.1.1"
 description = "Provenance-aware first screen for prompt injection in content entering an AI agent's trusted context"
 readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
-requires-python = ">=3.9"
+authors = [{ name = "locke" }]
+requires-python = ">=3.11"
 dependencies = []
 keywords = ["prompt-injection", "llm-security", "ai-agents", "claude-code", "memory-poisoning"]
 classifiers = [

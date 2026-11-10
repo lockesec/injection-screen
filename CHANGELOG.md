@@ -1,14 +1,15 @@
 # Changelog
 
-## Unreleased
+## 0.1.1 (2026-11-09)
 
+- Python 3.11 or newer is required (3.9 and 3.10 are end-of-life). CI tests 3.11 to 3.14 on `ubuntu-latest`.
 - `hook check` runs only the command `hook install` prints; any other command in a project's settings is named and not run unless you pass `--run-registered`.
 - `--provenance` combined with `--preset` or `--memory` now exits 64; it used to be ignored without a word.
 - More shapes: short overrides, other languages, model control tokens, requests for the prompt or a password, text addressed to the agent, and `jailbreak-persona`.
 - `--judge MODEL`: an optional local model through Ollama. It can only add findings, and a model that cannot answer is never read as clean.
 - Property tests from the docs, run with Hypothesis (a test dependency only), and `benchmarks/run_heldout.py`.
 
-## 0.1.0 (unreleased)
+## 0.1.0 (2026-11-09)
 
 First public release. What it does is below; the hardening history is in
 [DESIGN.md](DESIGN.md).
