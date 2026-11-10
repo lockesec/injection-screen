@@ -1,0 +1,13 @@
+# Fingerprints of findings in this project's own docs, reviewed 2026-10-16, two updated 2026-11-01.
+# Each is a comment, hidden-text or directive shape the docs QUOTE to explain a detector;
+# none is hidden from a reader. A fingerprint covers the whole flagged text, so any edit
+# to a flagged passage means regenerating this file (the self-scan test goes red).
+220c5d56c2b83ccb  # DESIGN.md: quoted example of html-comment-imperative
+000bc71582dd0dcb  # docs/detectors.md: quoted example of html-comment-imperative
+13dabad31f4f18ef  # docs/detectors.md: quoted example of html-comment-imperative
+eb73a2a2ed3b025c  # docs/detectors.md: quoted example of html-comment-imperative
+2dcb3a6fe0748a50  # docs/detectors.md: quoted example of html-comment-imperative
+8bd2dccdfdac89c2  # docs/detectors.md: quoted example of html-comment-imperative
+91041de4eb5a16d2  # docs/detectors.md: quoted example of html-comment-imperative
+0458b611a664e230  # docs/detectors.md: quoted example of html-comment-imperative
+eace0aa8b333b5fb  # docs/detectors.md: quoted example of hidden-text-imperative
